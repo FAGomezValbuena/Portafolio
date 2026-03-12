@@ -953,4 +953,45 @@ img {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+.project-itch-container {
+    width: 100%;
+    height: 167px; /* Altura estándar del widget de itch */
+    overflow: hidden;
+    background: #000;
+}
+
+.project-itch-container iframe {
+    border: none;
+}
+
+
+
+/* Ajuste para que el juego mantenga su proporción */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px 8px 0 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Modificamos un poco la tarjeta para que quepa el juego */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
 }
