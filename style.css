@@ -302,10 +302,10 @@ img {
 }
 
 .stat-number {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: var(--font-heading);
   font-weight: 900;
-  color: var(--color-neon-blue);
+  color: var(--color-text-secondary);
 }
 
 .stat-label {
@@ -992,6 +992,7 @@ img {
     flex-direction: column;
     height: 100%;
 }
+
 
 
 }
